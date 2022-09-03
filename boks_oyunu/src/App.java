@@ -1,4 +1,4 @@
-
+//Java Sınıflar ile boks maçını simüle eden programı yazıyoruz.
 class Dovuscu {
     String ad;
     double hasar;
