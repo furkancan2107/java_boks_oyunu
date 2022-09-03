@@ -75,7 +75,7 @@ class Ring {
     }
 
     Dovuscu ilkBaslayan() {
-        double r = Math.random() * 11;
+        double r = Math.random() * 10;
         return r <= 5 ? d1 : d2;
     }
 
