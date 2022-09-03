@@ -15,7 +15,7 @@ class Dovuscu {
     }
 
     double hit(Dovuscu foe) {
-        System.out.println("-----------------");
+       
 
         System.out.println(this.ad + "=>" + foe.ad + " 'a " + this.hasar + " " + "Vurdu");
         if (karsilik()) {
@@ -61,7 +61,7 @@ class Ring {
                 if (isWin()) {
                     break;
                 }
-                ilk.can = ikinci.hit(d1);
+                ilk.can = ikinci.hit(ilk);
                 if (isWin()) {
                     break;
                 }
